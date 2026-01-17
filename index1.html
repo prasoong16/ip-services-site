@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional IPR Services | Global Intellectual Property Firm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Roboto', sans-serif; }
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <span class="text-2xl md:text-3xl font-black text-blue-900 tracking-tighter">PROFESSIONAL <span class="text-blue-500">IPR SERVICES</span></span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-blue-900 font-medium">Home</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-900 font-medium">Services</a>
+                    <a href="#pricing" class="text-gray-700 hover:text-blue-900 font-medium">Pricing</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-900 font-medium">Why Us</a>
+                    <a href="#contact" class="bg-orange-500 text-white px-6 py-2 rounded font-bold hover:bg-orange-600 transition shadow-md">Get Consultation</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" class="text-gray-600 hover:text-blue-900 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <a href="#home" class="block px-4 py-3 text-gray-700 hover:bg-gray-50">Home</a>
+            <a href="#services" class="block px-4 py-3 text-gray-700 hover:bg-gray-50">Services</a>
+            <a href="#pricing" class="block px-4 py-3 text-gray-700 hover:bg-gray-50">Pricing</a>
+            <a href="#contact" class="block px-4 py-3 text-orange-600 font-bold hover:bg-gray-50">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section text-white py-20 lg:py-32 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Hero Text -->
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">File Patents Securely & Conveniently from anywhere in the World!</h1>
+                    <ul class="space-y-4 mb-8 text-lg text-gray-200">
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-3"></i> Recognised in 150+ Countries</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-3"></i> 95% Success Rate</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-3"></i> Fortune 500 Clients</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-3"></i> Cost Effective Pricing</li>
+                    </ul>
+                    <div class="flex gap-4">
+                        <a href="#pricing" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded font-bold transition">View Plans</a>
+                        <a href="#contact" class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 text-white px-8 py-3 rounded font-bold transition">Contact Us</a>
+                    </div>
+                </div>
+
+                <!-- Hero Form -->
+                <div class="bg-white text-gray-800 p-8 rounded-lg shadow-2xl">
+                    <h3 class="text-2xl font-bold text-blue-900 mb-6 border-b-2 border-orange-500 pb-2 inline-block">Free Consultation</h3>
+                    <form onsubmit="event.preventDefault();" class="space-y-4">
+                        <input type="text" placeholder="Name *" class="w-full bg-gray-100 border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-blue-500">
+                        <div class="grid grid-cols-2 gap-4">
+                            <input type="text" placeholder="Phone *" class="w-full bg-gray-100 border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-blue-500">
+                            <input type="email" placeholder="Email *" class="w-full bg-gray-100 border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-blue-500">
+                        </div>
+                        <select class="w-full bg-gray-100 border border-gray-300 rounded px-4 py-3 focus:outline-none focus:border-blue-500 text-gray-600">
+                            <option>I want to file a Patent</option>
+                            <option>I want to file a Trademark</option>
+                            <option>I need a Research Paper/Search</option>
+                            <option>Copyright Registration</option>
+                        </select>
+                        <button class="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 rounded shadow-md transition text-lg">SUBMIT REQUEST</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Milestones Strip -->
+    <section class="bg-blue-900 text-white py-10">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-blue-800">
+            <div>
+                <div class="text-3xl md:text-4xl font-bold text-orange-400">1000+</div>
+                <div class="text-sm md:text-base mt-2 opacity-80">Startups Served</div>
+            </div>
+            <div>
+                <div class="text-3xl md:text-4xl font-bold text-orange-400">6000+</div>
+                <div class="text-sm md:text-base mt-2 opacity-80">Patents Filed</div>
+            </div>
+            <div>
+                <div class="text-3xl md:text-4xl font-bold text-orange-400">153</div>
+                <div class="text-sm md:text-base mt-2 opacity-80">Countries Covered</div>
+            </div>
+            <div>
+                <div class="text-3xl md:text-4xl font-bold text-orange-400">95%</div>
+                <div class="text-sm md:text-base mt-2 opacity-80">Success Rate</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Grid -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-12 uppercase tracking-wide">Why Choose <span class="text-blue-900">Professional IPR Services?</span></h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Item 1 -->
+                <div class="p-6 border border-gray-100 shadow-lg rounded-lg hover:shadow-xl transition text-center">
+                    <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-900 text-2xl">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Certified Experts</h3>
+                    <p class="text-gray-600 text-sm">Our team is led by certified patent agents and attorneys with deep technical and business understanding.</p>
+                </div>
+                <!-- Item 2 -->
+                <div class="p-6 border border-gray-100 shadow-lg rounded-lg hover:shadow-xl transition text-center">
+                    <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-900 text-2xl">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Cost Effective</h3>
+                    <p class="text-gray-600 text-sm">We provide high-quality legal services at transparent, competitive rates optimized for startups.</p>
+                </div>
+                <!-- Item 3 -->
+                <div class="p-6 border border-gray-100 shadow-lg rounded-lg hover:shadow-xl transition text-center">
+                    <div class="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-900 text-2xl">
+                        <i class="fas fa-globe-asia"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Global Reach</h3>
+                    <p class="text-gray-600 text-sm">Filing capabilities in India, USA, and International (PCT) applications with a vast network.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Services -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 uppercase tracking-wide">Our <span class="text-blue-900">Expertise</span></h2>
+                <div class="h-1 w-20 bg-orange-500 mx-auto mt-4"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Utility/Design -->
+                <div class="bg-white p-8 rounded shadow-md border-t-4 border-blue-900 hover:-translate-y-1 transition duration-300">
+                    <h3 class="text-xl font-bold text-blue-900 mb-3"><i class="fas fa-drafting-compass mr-2"></i>Industrial Design</h3>
+                    <p class="text-gray-600 text-sm mb-4">Protect the ornamental or aesthetic aspect of an article. We handle design registration to ensure your product's unique look is legally yours.</p>
+                    <a href="#" class="text-orange-500 font-bold text-sm hover:underline">Read More &rarr;</a>
+                </div>
+
+                <!-- Application -->
+                <div class="bg-white p-8 rounded shadow-md border-t-4 border-blue-900 hover:-translate-y-1 transition duration-300">
+                    <h3 class="text-xl font-bold text-blue-900 mb-3"><i class="fas fa-file-signature mr-2"></i>Patent Filing</h3>
+                    <p class="text-gray-600 text-sm mb-4">Complete application services (Provisional & Complete) for India, USPTO, and PCT. We handle drafting, filing, and office action responses.</p>
+                    <a href="#" class="text-orange-500 font-bold text-sm hover:underline">Read More &rarr;</a>
+                </div>
+
+                <!-- Trademark -->
+                <div class="bg-white p-8 rounded shadow-md border-t-4 border-blue-900 hover:-translate-y-1 transition duration-300">
+                    <h3 class="text-xl font-bold text-blue-900 mb-3"><i class="fas fa-registered mr-2"></i>Trademark</h3>
+                    <p class="text-gray-600 text-sm mb-4">Brand protection including logo, slogan, and name registration. Includes comprehensive trademark search and objection handling.</p>
+                    <a href="#" class="text-orange-500 font-bold text-sm hover:underline">Read More &rarr;</a>
+                </div>
+
+                <!-- Copyright -->
+                <div class="bg-white p-8 rounded shadow-md border-t-4 border-blue-900 hover:-translate-y-1 transition duration-300">
+                    <h3 class="text-xl font-bold text-blue-900 mb-3"><i class="fas fa-copyright mr-2"></i>Copyright</h3>
+                    <p class="text-gray-600 text-sm mb-4">Secure your creative works. Software code, literature, art, and media content registration to prevent unauthorized reproduction.</p>
+                    <a href="#" class="text-orange-500 font-bold text-sm hover:underline">Read More &rarr;</a>
+                </div>
+
+                <!-- Research Paper -->
+                <div class="bg-white p-8 rounded shadow-md border-t-4 border-blue-900 hover:-translate-y-1 transition duration-300">
+                    <h3 class="text-xl font-bold text-blue-900 mb-3"><i class="fas fa-search mr-2"></i>Patent Analytics</h3>
+                    <p class="text-gray-600 text-sm mb-4">In-depth Research Papers and Patentability Search Reports. We provide FTO (Freedom to Operate) analysis and competitive intelligence.</p>
+                    <a href="#" class="text-orange-500 font-bold text-sm hover:underline">Read More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 uppercase tracking-wide">Professional <span class="text-blue-900">Fee Structure</span></h2>
+                <p class="text-gray-500 mt-2">Transparent pricing for every stage of your IP journey.</p>
+            </div>
+
+            <!-- Pricing Table -->
+            <div class="grid md:grid-cols-3 gap-0 max-w-5xl mx-auto border border-gray-200 rounded-lg overflow-hidden shadow-lg">
+                
+                <!-- Plan 1: Starter -->
+                <div class="p-8 bg-white hover:bg-gray-50 transition border-r border-gray-200">
+                    <h3 class="text-lg font-bold text-gray-500 uppercase">Starter</h3>
+                    <div class="my-4">
+                        <span class="text-4xl font-bold text-gray-800">$XXX</span>
+                        <span class="text-gray-500 text-sm">/service</span>
+                    </div>
+                    <p class="text-gray-500 text-sm mb-6">Ideal for individual inventors and early ideas.</p>
+                    <ul class="space-y-3 mb-8 text-sm text-gray-600">
+                        <li class="flex"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Basic Patent Search</li>
+                        <li class="flex"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Provisional Application</li>
+                        <li class="flex"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> 30 Min Consultation</li>
+                        <li class="flex opacity-50"><i class="fas fa-times text-gray-400 mt-1 mr-2"></i> Office Action Response</li>
+                    </ul>
+                    <a href="#contact" class="block w-full py-2 border-2 border-blue-900 text-blue-900 font-bold text-center rounded hover:bg-blue-900 hover:text-white transition">Get Started</a>
+                </div>
+
+                <!-- Plan 2: Standard (Highlighted) -->
+                <div class="p-8 bg-blue-900 text-white transform scale-105 shadow-xl z-10 relative">
+                    <div class="absolute top-0 right-0 bg-orange-500 text-white text-xs font-bold px-2 py-1">MOST POPULAR</div>
+                    <h3 class="text-lg font-bold text-blue-200 uppercase">Standard</h3>
+                    <div class="my-4">
+                        <span class="text-4xl font-bold text-white">$XXX</span>
+                        <span class="text-blue-200 text-sm">/service</span>
+                    </div>
+                    <p class="text-blue-200 text-sm mb-6">Complete protection for startups & SMEs.</p>
+                    <ul class="space-y-3 mb-8 text-sm text-blue-100">
+                        <li class="flex"><i class="fas fa-check text-orange-400 mt-1 mr-2"></i> Comprehensive Search Report</li>
+                        <li class="flex"><i class="fas fa-check text-orange-400 mt-1 mr-2"></i> Complete Specification Drafting</li>
+                        <li class="flex"><i class="fas fa-check text-orange-400 mt-1 mr-2"></i> Trademark Filing</li>
+                        <li class="flex"><i class="fas fa-check text-orange-400 mt-1 mr-2"></i> Design Registration</li>
+                    </ul>
+                    <a href="#contact" class="block w-full py-3 bg-orange-500 text-white font-bold text-center rounded hover:bg-orange-600 transition shadow-lg">Choose Standard</a>
+                </div>
+
+                <!-- Plan 3: Corporate -->
+                <div class="p-8 bg-white hover:bg-gray-50 transition">
+                    <h3 class="text-lg font-bold text-gray-500 uppercase">Corporate</h3>
+                    <div class="my-4">
+                        <span class="text-4xl font-bold text-gray-800">$XXX</span>
+                        <span class="text-gray-500 text-sm">/retainer</span>
+                    </div>
+                    <p class="text-gray-500 text-sm mb-6">Full IP portfolio management & analytics.</p>
+                    <ul class="space-y-3 mb-8 text-sm text-gray-600">
+                        <li class="flex"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Global Filing (PCT/Madrid)</li>
+                        <li class="flex"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> FTO & Infringement Analysis</li>
+                        <li class="flex"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Litigation Support</li>
+                        <li class="flex"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> Monthly Strategy Calls</li>
+                    </ul>
+                    <a href="#contact" class="block w-full py-2 border-2 border-blue-900 text-blue-900 font-bold text-center rounded hover:bg-blue-900 hover:text-white transition">Contact Sales</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Locations -->
+    <footer class="bg-gray-800 text-gray-300 py-12 border-t border-gray-700 text-sm">
+        <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">About Professional IPR Services</h4>
+                <p class="mb-4">A technology-driven IP firm run by experienced industry professionals. We help innovators protect their ideas globally.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin fa-lg"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter fa-lg"></i></a>
+                </div>
+            </div>
+            
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Quick Links</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-white">Patent Registration India</a></li>
+                    <li><a href="#" class="hover:text-white">International Patent (PCT)</a></li>
+                    <li><a href="#" class="hover:text-white">Trademark Search</a></li>
+                    <li><a href="#" class="hover:text-white">Patent Cost Calculator</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold text-lg mb-4">Contact Us</h4>
+                <ul class="space-y-2">
+                    <li><i class="fas fa-phone mr-2 text-orange-500"></i> +91 78275 95522</li>
+                    <li><i class="fas fa-envelope mr-2 text-orange-500"></i> Prof.ipr.service@gmail.com</li>
+                </ul>
+                <div class="mt-4">
+                    <button class="bg-orange-500 text-white px-4 py-2 rounded font-bold w-full hover:bg-orange-600 transition">Get a Quote</button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-12 pt-8 border-t border-gray-700">
+            <p>&copy; 2026 Professional IPR Services. All Rights Reserved. | Privacy Policy | Terms</p>
+        </div>
+    </footer>
+
+</body>
+</html>
